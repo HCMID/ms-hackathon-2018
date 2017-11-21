@@ -1,0 +1,15 @@
+
+# Setup
+title:            Holy Cross Manuscripts Hackathon
+tagline: 'February, 2018'
+
+url:
+#baseurl: 'http://HCMID.github.io'
+baseurl: '/mshackthon2018'
+
+
+# Links:
+links:
+  - title: HCMID home
+    url: https://hcmid.github.io/
+    external:  true
