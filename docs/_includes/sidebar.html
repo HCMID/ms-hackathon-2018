@@ -4,31 +4,34 @@
 
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
-  <div class="sidebar-item">
-    <p>{{ site.description }}</p>
-  </div>
+<div class="sidebar-item">
+  <p>{{ site.description }}</p>
+</div>
 
-  <nav class="sidebar-nav">
 
-  {% comment %}
-  Configure all links with a 'url' property and a 'title' property in
-  _config.yml`.
-  For absolute links, configure an additional   'external' property;
-  otherwise,  links are treated as relative to 'baseurl'.
-  {% endcomment %}
-  
-  {% for link in site.links %}
-  <a class="sidebar-nav-item"
-  href="{% if link.external %}{{ link.url }}{% else %}{{ site.baseurl }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a>
-  {% endfor %}
 
-  </nav>
+{% comment %}
+Navigable side bar.
+The for-loop below dynamically generates a sidebar nav of pages with
+`layout: page` in the front-matter. See readme for usage.
+{% endcomment %}
 
-  <div class="sidebar-item">
-    <p>
-    Site last updated:
-    {{ site.time | date:  '%B %-d, %Y'  }}
-    </p>
-  </div>
-  </div>
-  
+<nav class="sidebar-nav">
+
+  <a class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+
+
+{% for link in site.links %}
+<a class="sidebar-nav-item"
+href="{% if link.external %}{{ link.url }}{% else %}{{ site.baseurl }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a>
+{% endfor %}
+</nav>
+
+<div class="sidebar-item">
+  <p>
+  Site last updated:
+  {{ site.time | date:  '%B %-d, %Y'  }}
+  </p>
+</div>
+
+</div>

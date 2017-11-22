@@ -400,14 +400,3 @@ a.pagination-item:hover {
     border-bottom-right-radius: 4px;
   }
 }
-
-
-
-
-/* Sortable tables */
-table.sortable thead {
-    background-color:#eee;
-    color:#666666;
-    font-weight: bold;
-    cursor: default;
-}

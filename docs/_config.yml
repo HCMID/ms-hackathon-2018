@@ -1,11 +1,15 @@
 
+
+
+# Permalinks
+permalink:        pretty
+
 # Setup
 title:            Holy Cross Manuscripts Hackathon
 tagline: 'February, 2018'
+description:      'One-day collaborative hackathon to produce a digital diplomatic edition of the bestiary known as the "Bern Physiologus" (Bern Codex 318).'
+baseurl: '/mshackthon2018/'
 
-url:
-#baseurl: 'http://HCMID.github.io'
-baseurl: '/mshackthon2018'
 
 
 # Links:
