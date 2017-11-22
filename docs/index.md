@@ -7,5 +7,5 @@ layout: page
 Check back here for details in early December.
 
 -   overview
--   schedule
+-   [schedule](schedule)
 -   registration
