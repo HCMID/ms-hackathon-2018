@@ -6,14 +6,18 @@ permalink:        pretty
 
 # Setup
 title:            Holy Cross Manuscripts Hackathon
-tagline: 'February, 2018'
+tagline:          'February, 2018'
 description:      'One-day collaborative hackathon to produce a digital diplomatic edition of the bestiary known as the "Bern Physiologus" (Bern Codex 318).'
-baseurl: 'https://hcmid.github.io/mshackthon2018/'
 
 
+baseurl: '/mshackathon2018/'
 
-# Links:
+
+author:
+  name:           'Neel Smith'
+
+
 links:
   - title: HCMID home
-    url: https://hcmid.github.io/
-    external:  true
+    url: http://hcmid.github.io/
+    external: true
