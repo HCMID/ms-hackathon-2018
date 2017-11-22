@@ -6,7 +6,7 @@ import scala.io.Source
 val inFile = "hackable.json"
 val outFile =  "catalog.cex"
 val ms = "bern318"
-val urnBase = "urn:cite2:mid:bern318imgs.mid:"
+val urnBase = "urn:cite2:ecod:bern318imgs.v1:"
 
 // Drop first line:  remaining lines are image descriptions
 val lines = Source.fromFile(inFile).getLines.toVector
