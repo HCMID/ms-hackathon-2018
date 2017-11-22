@@ -22,9 +22,8 @@ Start a scala REPL and `:load catalogManifest.sc`. This creates a file name `cat
 ## Creating pyramidal files
 
 1.  `rsync` local set of images with Houston server
-2.   run `tileJpgs.sh` shell script on contents of image directory
+2.   run `tileJpgs.sh` shell script on contents of image directory to create pyramidal `tif` files for each `jpg`.
 
 ## Serving citable images
 
-
-TBA
+Within the root directory of an ICT2 service, place the pyramidal `tif` files in a subdirectory named `citenamespace/collection/version`.  (For Bern 318, this would be `ecode/bern318imgs/v1`;  on `www.homermultitext.org`, the root directory of the ICT2 service is `/project/homer/pyramidal/deepzoom`.)
