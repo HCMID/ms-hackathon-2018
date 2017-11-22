@@ -18,6 +18,8 @@ author:
 
 
 links:
-  - title: HCMID home
+  - title: Hackathon home page
+    url:  /
+  - title: HC MID club
     url: http://hcmid.github.io/
     external: true
