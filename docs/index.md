@@ -12,6 +12,8 @@ layout: page
 
 Come to a free, all-day hackathon to edit a cool 9th-century Latin  manuscript with illustrated allegorical stories about animals (lions, mandrakes, snakes, pelicans and more)!
 
+Before the day is over, we will complete an edition of the Bern Physiologus, to be published in the Holy Cross Institutional Repository, with all hackathon participants included as contributors.  
+
 
 Full details will be available here in early December.
 

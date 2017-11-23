@@ -6,7 +6,7 @@ permalink:        pretty
 
 # Setup
 title:            Holy Cross Manuscripts Hackathon
-tagline:          'February, 2018'
+tagline:          'February 24, 2018'
 description:      'One-day collaborative hackathon to produce a digital diplomatic edition of the bestiary known as the "Bern Physiologus" (Bern Codex 318).'
 
 
@@ -18,6 +18,8 @@ author:
 
 
 links:
+  - title: Schedule
+    url:  /schedule
   - title: Current score!
     url:  /score
   - title: Hackathon home page
