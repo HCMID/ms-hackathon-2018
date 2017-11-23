@@ -8,4 +8,4 @@ Git repository for Holy Cross Manuscript Hackathon, Feb. 2018.  See <https://hcm
 -   `docs`:  source for the public web site (<https://hcmid.github.io/ms-hackathon-2018/>).
 -   `morphology`:  lexica and inflectional rules for morphological parsing with [`tabulae`](https://github.com/neelsmith/tabulae/)
 -   `editions`:  TEI XML files with edited texts
--   `indexes`:  delimited text fils relating citable texts, folio pages and images
+-   `indexes`:  delimited text files relating citable texts, folio pages and images
