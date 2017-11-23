@@ -22,6 +22,8 @@ links:
     url:  /schedule
   - title: Current score!
     url:  /score
+  - title: References for editors
+    url:  /references
   - title: Hackathon home page
     url:  /
   - title: HC MID club

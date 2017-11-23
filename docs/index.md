@@ -5,6 +5,8 @@ layout: page
 
 
 
+Full details will be available here in early December.
+
 ## Join us!
 
 ![mandrake](http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/bern318imgs/v1/bern318_019r.tif&RGN=0.1632,0.4317,0.4943,0.08636&wID=600&CVT=JPEG)
@@ -12,22 +14,21 @@ layout: page
 
 Come to a free, all-day hackathon to edit a cool 9th-century Latin  manuscript with illustrated allegorical stories about animals (lions, mandrakes, snakes, pelicans and more)!
 
-Before the day is over, we will complete an edition of the Bern Physiologus, to be published in the Holy Cross Institutional Repository, with all hackathon participants included as contributors.  
 
 
-Full details will be available here in early December.
 
 
--   overview
+
+-   [overview](overview)
 -   [schedule](schedule)
--   registration
+-   [registration](registration)
 
 
 ## The Bern Physiologus
 
 
 -   browse thumbnail images of the text we'll be editing
--   reference information for editors
+-   [reference information for editors](references)
 
 ##  How to get to Holy Cross
 
