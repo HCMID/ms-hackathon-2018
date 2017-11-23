@@ -27,7 +27,7 @@ Come to a free, all-day hackathon to edit a cool 9th-century Latin  manuscript w
 ## The Bern Physiologus
 
 
--   browse thumbnail images of the text we'll be editing
+-   [browse thumbnail images of the manuscript](thumbs) we'll be editing
 -   [reference information for editors](references)
 
 ##  How to get to Holy Cross

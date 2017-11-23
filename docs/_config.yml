@@ -22,6 +22,8 @@ links:
     url:  /schedule
   - title: Current score!
     url:  /score
+  - title: Images of the manuscript
+    url:  /thumbs
   - title: References for editors
     url:  /references
   - title: Hackathon home page
