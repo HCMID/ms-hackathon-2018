@@ -38,10 +38,12 @@ val imgContent = for (l <- lines.tail) yield {
 
 // convert vector of markdown cells to rows of markdown table
 val rows = for (i <- 0 until imgContent.size) yield {
-    println(s"${i}->${i % colSize}")
-    if (i % colSize == (colSize - 1)){
-      println(s"\tWriting at ${i}")
-      val sliver = imgContent.slice( i - colSize, i)
+    val oneBasedIndex = i + 1
+    println(s"${oneBasedIndex}->${oneBasedIndex % colSize}")
+    //if (i % colSize == (colSize - 1)){
+    if (oneBasedIndex % colSize == 0){
+      println(s"\tWriting onebased at ${oneBasedIndex}")
+      val sliver = imgContent.slice( oneBasedIndex - colSize, oneBasedIndex)
       "| " + sliver.mkString(" | ") + " |"
     } else ""
 }
