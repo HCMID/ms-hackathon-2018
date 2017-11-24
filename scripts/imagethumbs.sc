@@ -38,7 +38,9 @@ val imgContent = for (l <- lines.tail) yield {
 
 // convert vector of markdown cells to rows of markdown table
 val rows = for (i <- 0 until imgContent.size) yield {
-    if ((i % colSize == 0) && (i > 0)){
+    println(s"${i}->${i % colSize}")
+    if (i % colSize == (colSize - 1)){
+      println(s"\tWriting at ${i}")
       val sliver = imgContent.slice( i - colSize, i)
       "| " + sliver.mkString(" | ") + " |"
     } else ""
@@ -47,7 +49,7 @@ val rows = for (i <- 0 until imgContent.size) yield {
 
 // Collect any left-over cells
 val remndr =  imgContent.size % colSize
-val trailer = if (remndr != 0) {
+val trailer = if (remndr != 0)  {
   val sliver = imgContent.slice(imgContent.size - remndr, imgContent.size)
   val pad = List.fill( colSize - remndr - 1)( " | ").mkString
   "| " + sliver.mkString(" | ") + pad + " |\n"
