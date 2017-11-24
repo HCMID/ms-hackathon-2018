@@ -9,10 +9,14 @@ E.g., in the repo's root dir, open a scala REPL, and
 
 */
 
-
-val cex = "imgs/catalog-tweaked.cex"
+// width of table in columns
 val colSize = 6
+// width of thubmnail images in pixels
 val thumbSize = 100
+
+// Includes some improved, manually added captions in addition
+// to content automatically extracted from IIIF manifest:
+val cex = "imgs/catalog-tweaked.cex"
 
 // Settings for HMT ICT2 service:
 val collectionBaseUrl = "http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/bern318imgs/v1/"
