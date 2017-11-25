@@ -10,7 +10,7 @@ Physiologus narrat de leone quoniam tres naturas habet.
 Prima autem natura leonis haec est. Quum ambulat et iter facit in montes, venit ei odor venantium; et de cauda cooperit vestigia sua, ut non sequantur vestigia venatores et inveniant cubile ejus et adprehendant eum.  Sic et Salvator meus, sensatus ut leo vincens de tribu Juda radix David, missus a sempiterno Patre, operuit intelligibilia vestigia sua, id est deitatem: cum angelis angelos, cum thronis thronos, cum potestatibus potestates; donec descendit in uterum genetricis Mariae ut salvaret hoc quod erraverat genus humanum.  Et Verbum caro factum est, et habitavit in nobis.
 
 
-[p109]
+#[p 109]
 Et ignorantes eum omnes descendentem dicebant: Quis est iste rex gloriae?
 
 #urn:cts:mid:bestiaries.bern318.hc:leo2
@@ -21,13 +21,13 @@ Tertia natura leonis talis est.  Quum leaena genuiert catulum suum, mortuum eum 
 
 
 
-[p117]
+#[p 117]
 
 Figura habentes; it ut arbores magnos secent; et ad terra deponant.  Quum enim sitierint, venit fluvium.  Sunt enim tenuis hulici ramos; et quum ludendo transcedeverit, obligatur cornibus et tenetur ad ramos hulicis tamquam si irritietur;  et clamat vociferans, volens fugere.  Et dum audierit eum venator, venit et occidit eum.
 
 Et tu, homo, serva duo Testamenta, novum et veterae, quae tibi pro salute animae datae sunt:  hoc est avaritia, luxuria, et omni pompas saeculi, et eis incipias obligari.
 
-[p122]
+#[p 122]
 
 #urn:cts:mid:bestiaries.bern318.hc:serra
 De natura piscis maximo qui dicitur serra.
@@ -36,7 +36,7 @@ Haec piscis longas habet valde alas.  Si viderit navigantes in mare, emittatur v
 
 Mare mundus est;  navis sancta Ecclesia, in quibus sunt populi Dei.  Hic autem pisces diabolus est, qui transfigurat se in angelo lucis, ut incautas animas facilius possite decipere.
 
-[p130]
+#[p 130]
 
 #urn:cts:mid:bestiaries.bern318.hc:calatrius
 
@@ -44,7 +44,7 @@ De natura volatile quae dicitur calatrius.
 
 Sicut in Deuteronomio scriptum est, Physiologus narrat de ipso quoniam totus albus est, nullam partem habens nigram.  Interiora ejus infirma curant quorum oculi caligant.  In atriis regum invenitur;  et si quis infirmus est, ex eo calatrius congnoscitur si vivat aut moriatur.  Et si est infirmitas hominis ad mortem, avertit faciem suam calatrius, et omnes cognoscunt quia morietur.  Si autem infirmitas hominis est ad vitam, aspicit calatrius hunc eum, et infirmus calatrio; et absorbet infirmitatem hominis, et aspergit eam, et salvabitur his qui infirmatur.
 
-[p134]
+#[p 134]
 
 #urn:cts:mid:bestiaries.bern318.hc:vipera
 
@@ -52,7 +52,7 @@ Bene dixit Johannes ad pharisaeos Generatio viperarum, quis vobis dixit fugere a
 
 Bene ergo similavit Johannes viperae pharisaeos;  quoniam sicut haec generatio occidit patrem et matrem, sic pharisaei occiderunt intellegissimos parentes prophetas et Salvatorem nostrum Iesum Christum, et matrem terrestrem Hierusalem.  Quomodo ergo fugient ab ira ventura?  Pater autem noster Iesus Christus, et mater Ecclesia vivunt in aeternum, ipsi autem peccatores mortui sunt.
 
-[p137]
+#[p 137]
 #urn:cts:mid:bestiaries.bern318.hc:nocticoracus
 
 Bene David dicit Factus sum sicut pelicanus in deserto, et sicut nocticoraucs in domocilio.  Physiolocus narrat de pelicano quoniam amator est filiorum nimis, si autem genuerit natos et creverint, percucient in faciem parentum
@@ -61,7 +61,7 @@ Parents autem colaphizant eos et occidunt eos.  Deinde misericordia ducti parent
 
 Ita et Dominus noster per Esaiam dicit:  Filios genui et exaltavi. ipsi autem me spreverunt.  Fabricator noster genuit nos, et percussimus sum.  Quomod percissimus eum?  Servivimus creaturae plus quam Creatori.  Veniens autem in altitudinem crucis Salvator noster, aperiens et exterrens suum latus, et stillavit sanguinem in salutem et vitam aeternam.  Sanguinem, propter quod dicit, Accipiens calicem benedixit;  aquam autem, propter baptismum penitentiae.  Bene physiologus arguit de pelicano.
 
-[p165]
+#[p 165]
 
 #urn:cts:mid:bestiaries.bern318.hc:aquila
 
@@ -71,7 +71,7 @@ David dicit Renovabitur sicut aquila juventus tua.  Physiolocus dixit de aquila 
 
 Sic autem et tu veterem indumentum habens, et caliginant tibi oculi;  quaere spritale fonte, Dei verbum, qui dixit:  Me dreliquerunt fontem vivam aquae.  Et volans in altitudinem solis justitiae Jesus Christius.  Et epse exuet te veterem indumentum diaboli; et baptizare in sempiternum fontem, in nomine Patris et Filii, et Spiritus sancti.  Hoc ergo David dicit: Renovabitur sicut aquila juventus tua.
 
-[p170]
+#[p 170]
 #urn:cts:mid:bestiaries.bern318.hc:nocticoraci
 
 Dixit Physiolocus: volatile est diligens noctem magis quam diem.
@@ -80,7 +80,7 @@ Dominus noster Iesus Christus dilexit nos qui in tenbris sedebamus et umbrae mor
 
 Sed dic mihi quoniam nocticorax inmundus est secundum Legem.  Ideo Apostolus dicit de Salvatore: Non cognovi peccatum, peccatum non fect; et humiliavit se ut nos exaltaret.  Bene ergo Physiolocus narrat de nocticoracis.
 
-[p173]
+#[p 173]
 
 #urn:cts:mid:bestiaries.bern318.hc:serena_honocentaur
 
@@ -89,7 +89,7 @@ De natura serenae et serena_honocentar
 Esaias propheta sic dixit quoniam serenae et honotaurus et iricii ibi saltabunt.   Physiologus sic dixit quia serenas dicit esse mortiferas; et in mare clamitant vobis diversis, ut navigantes dum audierint seducantur.  A capite usque ad umbilicum hominis figuram habet, et deorsum usquae ad caudam volatile est.
 
 
-[p178]
+#[p 178]
 
 #urn:cts:mid:bestiaries.bern318.hc:ypopus
 
@@ -97,7 +97,7 @@ Bene scriptum est: Qui maledixerit patrem aut matrem, morte moriatur.  Et quomod
 
 Quomod inrationabiles homines non amant parentes suos!  Bene Physiologus arguit de ypopus.
 
-[p188]
+#[p 188]
 
 #urn:cts:mid:bestiaries.bern318.hc:formica_exigua
 
@@ -124,7 +124,7 @@ Saepius in agro vadit, ascendit in spica in tempore messis, et deponit grana eju
 
 Est ergo ordeum pecorum esca, et accepit triticum quia reponitur in orreo.  Ordius enim similabitur aliena doctrina, triticum aequitatem fidei spiritus.
 
-[p198]
+#[p 198]
 
 #urn:cts:mid:bestiaries.bern318.hc:ericius
 
@@ -132,7 +132,7 @@ Ericius quidem figuram habet totum spineam, et totus de spinis plenus est.  Phys
 
 Et tu, christiani, si fueris Dei vitis, conserva ergo te ne ascendat as ad te diabolus, ne quando corrumpat viam tuam bonam et dispergat filiis suis, id est idolis et adversariis potestabius, et dimittat recemum tuum vacuum.  Quia si botrus tuus custodieries, poteris adduci ad spiritalem torcolarem ut reponaris in cellario, hoc est in atria regis Christi, quae possunt vinum bonum in laetitiae cordis homini praestare.
 
-[p208]
+#[p 208]
 
 #urn:cts:mid:bestiaries.bern318.hc:vulpes
 
@@ -142,9 +142,9 @@ Dolosum est animal hujus modo.  Si auitem esurierit, et non inveniat quod manduc
 
 Huic similabitur diabolus.  Dolosus est in omni opera sua; qui ergo voluerit accipere de carnibus ejus, et est de actibus ejus, statim moritur.  Nam et Salvator de Herode filio Herodi diaboli sic ait:  Et dic vulpi illi.  Et in canticis canticorum;  Capite nobis vulpes exterminantes vineam; de qua vinea David dixit.
 
-[p218]
+#[p 218]
 
-#urn:cts:mid:bestiaries.bern318.hc:aesura
+#urn:cts:mid:bestiaries.bern318.hc:aesaura
 
 Est qui vocatur aesaurae eliae. Dixit Physiolocus: Quum senuerit, impeditur duobus oculis et excaecatur no vidit solis lumen.  Quid ergo facit naturae suae?  Quaerit parietem adtendentem ad orientem, et ortu solis intrans in scissuram parietis, aperientur oculi ejus.
 
@@ -157,7 +157,7 @@ Dominus dicit in Evangelio: Ergo estote prudentes sicut serpentes, et simplices 
 
 Sic et nos, per multam abstinentiam et tribulationes pro Christo, deponimus veterm hominem et indumentum ejus.  Set et tu quaere spiritualem petram, Christu; et angustam fissuram, id est angustam portam quae ducit ad vitam, et pauci intrant per eam.
 
-[p221]
+#[p 221]
 
 
 #urn:cts:mid:bestiaries.bern318.hc:unicornium
