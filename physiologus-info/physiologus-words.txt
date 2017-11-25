@@ -91,16 +91,77 @@ Esaias propheta sic dixit quoniam serenae et honotaurus et iricii ibi saltabunt.
 
 [p178]
 
+#urn:cts:mid:bestiaries.bern318.hc:ypopus
+
+Bene scriptum est: Qui maledixerit patrem aut matrem, morte moriatur.  Et quomodo sunt patricidae aut matriciade!  Est avis quae dicitur latine ypopus.  Hujus filii si viderent parentes suos senescentes, et caliginasse oculos eorum; evellunt pennas veteres parentum, et lingunt oculos eorum, et calefaciunt parentes suos et novi fiunt.  Et dicunt parentibus suis:  Sicut laborastis nutrientes nos, similter vobis facimus.
+
+Quomod inrationabiles homines non amant parentes suos!  Bene Physiologus arguit de ypopus.
 
 [p188]
 
+#urn:cts:mid:bestiaries.bern318.hc:formica_exigua
+
+De formiaca exigua
+
+Est enim formica quae majoribus audivit viribus, neque servitium adoperando cogitur, set spontaniae proposuit proscientiae futura alimentorum subsidia sibi praestruit;  cujus uti meteris industriam Scriptura te commonet, dicens:  Conforte ad formicam, o piger, et considera vias ejus, et esto sapientior.  Illa enim nulla cultura possidet, neque enim qui se cogat habens, neque sub dominio agens, quem ad modum praeparat escama, absque de tuis laboribus sibi messem recondit;  et quum tu plenum que egeas, illa no indigeat.  Nulla sunt ei clausa orrea, nulla inpenetrabilis custodiae, nulla ei inviolabilis acero; spectact custus furta que prohibere non audebat, aspicit sua dampna possessor, necuindicat.  Negro convictator agmine, praedam per campos ferent, se miscunt comitatum viantium; et quae compraehendi angusto ore non possunt, humeris gradia frumentum tunduntur.
+
+Expectat Dominus meus si se erubescit tamquam prcapie industriae negare compendia.
+
+#urn:cts:mid:bestiaries.bern318.hc:formica
+
+
+De Natura formica_exigua
+
+Quando recondit triticum in terra, dividet grana ejus in duas partes, ne forte hiems comprephendit eam, et infundens pluvia; et germinent grana, et fame pereant.
+
+Et tu verba veteris Testamenti ad spiritalem intellectum, nequando littera occidit.  Paulus dixit quoniam Lex spiritalis est.  Solum enim carnaliter adtendentes Iudaei, fame negati sunt, et homicidae facti sunt prophetarum.
+
+#urn:cts:mid:bestiaries.bern318.hc:formica2
+
+De natura formices secunda
+
+Saepius in agro vadit, ascendit in spica in tempore messis, et deponit grana ejus. Priusquam ascendat, adorat deorsum spicam; et ab odore magna scit si triticum est aut ordeum.  Si ordeum est, dimittit eum, et vadit super triticum:
+
+Est ergo ordeum pecorum esca, et accepit triticum quia reponitur in orreo.  Ordius enim similabitur aliena doctrina, triticum aequitatem fidei spiritus.
+
 [p198]
 
+#urn:cts:mid:bestiaries.bern318.hc:ericius
+
+Ericius quidem figuram habet totum spineam, et totus de spinis plenus est.  Physiolocus dicit de eo:  tempore vidimiae ascendit in vitem super brutuum et deicit grana ejus in terra; et descendens volutat se super grana, et adhaerent in spinis ejus;  et adferet filiis suis, et dimittit recem butrui vacuum.
+
+Et tu, christiani, si fueris Dei vitis, conserva ergo te ne ascendat as ad te diabolus, ne quando corrumpat viam tuam bonam et dispergat filiis suis, id est idolis et adversariis potestabius, et dimittat recemum tuum vacuum.  Quia si botrus tuus custodieries, poteris adduci ad spiritalem torcolarem ut reponaris in cellario, hoc est in atria regis Christi, quae possunt vinum bonum in laetitiae cordis homini praestare.
 
 [p208]
 
+#urn:cts:mid:bestiaries.bern318.hc:vulpes
+
+De natura vulpis
+
+Dolosum est animal hujus modo.  Si auitem esurierit, et non inveniat quod manducet, quaerit scissuram terrae, et proicit se supnam sursum adtendentem, et adducit flatus suum infra se omnimodo; et putant volatilia eam esse mortuum, et descendent ut devorent eum.  Illa vero subito exsurget et rapit et comedit.
+
+Huic similabitur diabolus.  Dolosus est in omni opera sua; qui ergo voluerit accipere de carnibus ejus, et est de actibus ejus, statim moritur.  Nam et Salvator de Herode filio Herodi diaboli sic ait:  Et dic vulpi illi.  Et in canticis canticorum;  Capite nobis vulpes exterminantes vineam; de qua vinea David dixit.
 
 [p218]
 
+#urn:cts:mid:bestiaries.bern318.hc:aesura
+
+Est qui vocatur aesaurae eliae. Dixit Physiolocus: Quum senuerit, impeditur duobus oculis et excaecatur no vidit solis lumen.  Quid ergo facit naturae suae?  Quaerit parietem adtendentem ad orientem, et ortu solis intrans in scissuram parietis, aperientur oculi ejus.
+
+Ne cordis tui aliquando impediantur, quaere ergo qui oriri facit solem justitiae Dominum Iesum Christum, cujus nomen Oriens vocatur per prophetam; et iste sol justitiae aperiet tibi intelligibilis oculos cordis.
+
+
+#urn:cts:mid:bestiaries.bern318.hc:serpens2
+
+Dominus dicit in Evangelio: Ergo estote prudentes sicut serpentes, et simplices sicut columbae.  Bene Physiologus narrat de eo quoniam quatturo naturas habet serpens.  Haec natura serpentis est: Quum senuerit, caligant oculi ejus; et si voluerit novus fieri, abstinet se et jejunat quadraginta diebus, donec pellis ejus relaxetur, et quaerit fissuram angustam in petram; et intrat in fussuram et contribulat se et deponit pellem veterem.
+
+Sic et nos, per multam abstinentiam et tribulationes pro Christo, deponimus veterm hominem et indumentum ejus.  Set et tu quaere spiritualem petram, Christu; et angustam fissuram, id est angustam portam quae ducit ad vitam, et pauci intrant per eam.
 
 [p221]
+
+
+#urn:cts:mid:bestiaries.bern318.hc:unicornium
+
+In psalmo sic dicit:  Exaltabitur sicut unicornis cornum meum.  Physiologus de eo dicit quod minor sit animal.  Est autem animal simile edum, mansuetum valde;  unum cornum habet super caput, et non potest venator adpropinquare ei propter quod valde fortissimum habet cornum.  Quando tamen tripudiando discurrit, sic modo conprehenditur.  Proicitur ante eum virgo castissima;  et dum videret virginem, statim venit mansuetus, et in sinu ejus se conlocat.  Et dum calefiet, sic eum portat festinans in domo regis.  Nam nullus eum venator adprehendere valet.
+
+Ita et Salvator noster est, de quo propheta dicit:  Erexit cornu salutis nobis in domo David.  Dum enim in seculum videretur, nulli reges nullique potestates maligne valuerunt nocere eum; quum Verbum caro factum est et habitavit in nobis.
