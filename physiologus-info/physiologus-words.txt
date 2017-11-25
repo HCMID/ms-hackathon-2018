@@ -63,10 +63,30 @@ Ita et Dominus noster per Esaiam dicit:  Filios genui et exaltavi. ipsi autem me
 
 [p165]
 
+#urn:cts:mid:bestiaries.bern318.hc:aquila
+
+De natura volatile aquilae
+
+David dicit Renovabitur sicut aquila juventus tua.  Physiolocus dixit de aquila quoniam si senuerit, gravabuntur alae ejus, et caliginantk oculi ipsius.  Quid ergo facit?  Quaerit fontem aqua munda, et volat in aera solis;  extendit alas, et descendit in fontem aquae.  Baptizatur per ter, et ascendit reprobans caliginem oculorum; et renovabitur, et novus fit.
+
+Sic autem et tu veterem indumentum habens, et caliginant tibi oculi;  quaere spritale fonte, Dei verbum, qui dixit:  Me dreliquerunt fontem vivam aquae.  Et volans in altitudinem solis justitiae Jesus Christius.  Et epse exuet te veterem indumentum diaboli; et baptizare in sempiternum fontem, in nomine Patris et Filii, et Spiritus sancti.  Hoc ergo David dicit: Renovabitur sicut aquila juventus tua.
 
 [p170]
+#urn:cts:mid:bestiaries.bern318.hc:nocticoraci
+
+Dixit Physiolocus: volatile est diligens noctem magis quam diem.
+
+Dominus noster Iesus Christus dilexit nos qui in tenbris sedebamus et umbrae mortis:  populus Gentium supra populum Iudaeorum quia tunc adoptionem et Patrum permissionem habuerunt;  propter ea et Salvator dicit: Nolite timere pusillus grex hoc unum in eo complacuit Deo.
+
+Sed dic mihi quoniam nocticorax inmundus est secundum Legem.  Ideo Apostolus dicit de Salvatore: Non cognovi peccatum, peccatum non fect; et humiliavit se ut nos exaltaret.  Bene ergo Physiolocus narrat de nocticoracis.
 
 [p173]
+
+#urn:cts:mid:bestiaries.bern318.hc:serena_honocentaur
+
+De natura serenae et serena_honocentar
+
+Esaias propheta sic dixit quoniam serenae et honotaurus et iricii ibi saltabunt.   Physiologus sic dixit quia serenas dicit esse mortiferas; et in mare clamitant vobis diversis, ut navigantes dum audierint seducantur.  A capite usque ad umbilicum hominis figuram habet, et deorsum usquae ad caudam volatile est.
 
 
 [p178]
