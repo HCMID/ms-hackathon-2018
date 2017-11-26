@@ -9,6 +9,8 @@ E.g., in the repo's root dir, open a scala REPL, and
 
 */
 
+val ms = "bern88"
+
 // width of table in columns
 val colSize = 6
 // width of thubmnail images in pixels
@@ -16,10 +18,10 @@ val thumbSize = 100
 
 // Includes some improved, manually added captions in addition
 // to content automatically extracted from IIIF manifest:
-val cex = "imgs/catalog-tweaked.cex"
+val cex = s"imgs/${ms}catalog.cex"
 
 // Settings for HMT ICT2 service:
-val collectionBaseUrl = "http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/bern318imgs/v1/"
+val collectionBaseUrl = s"http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/${ms}/v1/"
 val ict = "http://www.homermultitext.org/ict2"
 val imgSnip = s".tif&WID=${thumbSize}&CVT=JPEG"
 
@@ -68,4 +70,4 @@ val pghdr = "---\ntitle: Images\nlayout: page\n---\n\n"
 val intro = "Thumbnail images are linked to an image citation tool\n\n"
 
 import java.io.PrintWriter
-new java.io.PrintWriter("docs/thumbs.md"){write(pghdr + intro + mdTable);close;}
+new java.io.PrintWriter("docs/${ms}-thumbs.md"){write(pghdr + intro + mdTable);close;}
