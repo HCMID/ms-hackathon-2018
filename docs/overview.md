@@ -4,19 +4,18 @@ layout: page
 ---
 
 
-On February 24,
+Small teams (3-6) of participants will work with experienced Holy Cross students and alumni to edit part of a Latin manuscript from high-resolution digital images that are freely available over the internet. We expect that before the day is over, we will have compiled a complete edition of the text known as "the Bern Physiologus" (part of Latin manuscript 318 in the Bern Burgerbibliothek, in Bern, Switzerland).
 
+The text of our digital edition will be keyed to images of the text, and will be tested with scripts that analyze the Latin text and the formating of the edition.
 
-work is in teams
-
-Before the day is over, we will complete a digital diplomatic edition of the Bern Physiologus, keyed to freely available digital images of the text.
-
-We will test our digital edition with scripts that parse the Latin text and analyze the format of the edition.  Once all automated tests are passed, we will publish the edition in the Holy Cross Institutional Repository, where it.  All hackathon participants will be named as contributors
+Once all automated tests are passed, we will publish the edition in the Holy Cross Library's digital Institutional Repository.  All hackathon participants will be named as contributing editors.
 
 
 
-## The Bern Physiologus
+## About the manuscript we'll work on
 
 
--   [browse thumbnail images of the manuscript](thumbs) we'll be editing
--   [reference information for editors](references)
+
+
+-   [browse thumbnail images of the manuscript](../thumbs) we'll be editing
+-   a [brief description of the manuscript](http://www.e-codices.unifr.ch/en/searchresult/list/one/bbb/0318)

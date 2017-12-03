@@ -3,7 +3,7 @@ title: Images
 layout: page
 ---
 
-Thumbnail images are linked to an image citation tool
+Thumbnail images are linked to a tool for citing images.  (You'll learn how to do that in our workshop.)
 
 | | | | | | |
 |:-------------|:-------------|:-------------|:-------------|:-------------|:-------------|
