@@ -8,7 +8,7 @@ layout: page
 ![mandrake](http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/bern318imgs/v1/bern318_019r.tif&RGN=0.1632,0.4317,0.4943,0.08636&wID=600&CVT=JPEG)
 
 
-## What is a manuscripts hackathon?
+## What is our manuscripts hackathon?
 
 -   A free, one-day workshop for secondary-school teachers and students.
 -   You'll learn how to read and edit Latin manuscripts.
