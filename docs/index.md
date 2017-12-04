@@ -41,4 +41,4 @@ Saturday, February 24, 9:00-4:30, on the third floor of Hogan Center at the Coll
 
 ## Questions?
 
-Send us an email.  At `g.holycross.edu`, you can get in touch with workshop organizer Hannah Nguyen as `hnguye19`.  At `holycross.edu`, you can reach the HCMID faculty, Neel Smith, as `nsmith`.
+Send an email to `manuscripthackathon2018@gmail.com`.
