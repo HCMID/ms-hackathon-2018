@@ -15,7 +15,7 @@ layout: page
 -   No prior experience with manuscripts or editing is required. Students should currently be taking a Latin class (any level).
 -   We'll create a digital edition of a cool [9th-century Latin  manuscript with illustrated allegorical stories about animals](thumbs) (lions, mandrakes, snakes, pelicans and more).
 -   We'll provide lunch, snacks and training: you bring a laptop and enthusiasm.
--   You will be cited as a contributing editor in a publication of the manuscript in the Holy Cross Library's digital Institutional Repository.
+-   You will be cited as a contributing editor in a publication of the manuscript in the Holy Cross Library's digital Institutional Repository, [CrossWorks](http://crossworks.holycross.edu/).
 
 
 ## Who's doing this?
