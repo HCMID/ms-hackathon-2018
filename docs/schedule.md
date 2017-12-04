@@ -1,13 +1,11 @@
 ---
-title:  "Schedule"
+title:  "Schedule: February 24, 2018"
 layout: page
 ---
 
 
 
 
-
-## Detailed schedule
 
 9:00-9:45:  **Register, meet your project leader, pre-flight checkup** (registration desk at entrance to Hogan 3, with directions to assigned work location for each team).  Each team should have at least one [fully configured computer](../tech), and at least one additional computer with a web browser.  Coffee will be available for those who need it.
 

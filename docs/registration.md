@@ -3,19 +3,8 @@ title:  Registration
 layout: page
 ---
 
+Use [this Google form](https://docs.google.com/forms/d/e/1FAIpQLSez3UMGMmJIuEPUMiFeNhM3D4fxuNniq2_BHuvjKNt9WtBfFA/viewform) to register your group.
 
-Registration will be available in December through a Google form.
+The hackathon is limited to 150 participants.  Registration will close on January 26, or when we reach the limit of 150.
 
-The only prerequisite for the hackathon is an interest in working on Latin manuscripts.  Information about preparation and what to bring to the hackathon will be added to this page once registration is open.
-
-
-Download:
-
--  a set of [zipped template files](https://github.com/HCMID/ms-hackathon-2018/blob/master/templates.zip?raw=true) we'll use in editing (temporary: to be updated)
-
-
-
-
-## More information
-
--  [technologies we'll use](tech)
+We'll confirm your registration with you by email.

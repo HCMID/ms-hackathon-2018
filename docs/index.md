@@ -22,6 +22,10 @@ layout: page
 
 The hackathon is organized by undergraduate students and alumni of the [Manuscripts, Inscriptions and Documents Club](http://hcmid.github.io/) (HCMID) at the College of the Holy Cross.
 
+## Date, time, location
+
+Saturday, February 24, 9:00-4:30, on the third floor of Hogan Center at the College of the Holy Cross.
+
 
 ## More information
 
@@ -31,6 +35,7 @@ The hackathon is organized by undergraduate students and alumni of the [Manuscri
 
 
 ##  How to get to Holy Cross
+
 [![Folio 22 recto](http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/bern318imgs/v1/bern318_022r.tif&RGN=0.1041,0.3373,0.5885,0.3833&wID=300&CVT=JPEG)](https://www.holycross.edu/visitors)
 
 
