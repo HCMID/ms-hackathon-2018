@@ -20,7 +20,7 @@ layout: page
 
 ## Who's doing this?
 
-The hackathon is organized by undergraduate students and alumni of the [Manuscripts, Inscriptions and Documents Club](http://hcmid.github.io/) (HCMID) at the College of the Holy Cross.
+The hackathon is organized by undergraduate students and alumni of the [Manuscripts, Inscriptions and Documents Club](http://hcmid.github.io/) (HCMID) at the [College of the Holy Cross](https://www.holycross.edu/).
 
 ## Date, time, location
 
