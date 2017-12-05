@@ -44,4 +44,9 @@ Saturday, February 24, 9:00-4:30, on the third floor of Hogan Center at the Coll
 
 ## Questions?
 
-Send an email to `manuscripthackathon2018@gmail.com`.
+You can reach hackathon organizer Hannah Nguyen or faculty advisor Neel Smith by email at `manuscripthackathon2018@gmail.com`.
+
+
+## *Gratias agimus*
+
+We are grateful to the College of the Holy Cross' [Ignite Fund](https://www.holycross.edu/center-liberal-arts-world/create-your-own-project) for making this event possible.
