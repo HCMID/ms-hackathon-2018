@@ -29,7 +29,9 @@ links:
   - title: Hackathon home page
     url:  /
   - title: Further projects
-    url:  /next    
+    url:  /next
   - title: HC MID club
     url: http://hcmid.github.io/
     external: true
+  - title: Acknowledgments
+    url: gratias
