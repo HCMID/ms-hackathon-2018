@@ -4,4 +4,7 @@ layout: page
 ---
 
 
-TBA
+TBA:
+
+-   configuring table editing
+-   configuring validating editing of TEI

@@ -18,4 +18,4 @@ Once all automated tests are passed, we will publish the edition in the Holy Cro
 
 
 -   [browse thumbnail images of the manuscript](../thumbs) we'll be editing
--   a [brief description of the manuscript](http://www.e-codices.unifr.ch/en/searchresult/list/one/bbb/0318)
+-   a [brief description of the manuscript](http://www.e-codices.unifr.ch/en/searchresult/list/one/bbb/0318) from the e-codices project (Switzerland)

@@ -4,16 +4,14 @@ layout: page
 ---
 
 
-## During the hackathon
+## Preparing for the hackathon
+
+The only software you need is:
+
+-  a web browser
+-  the free Atom text editor for our work.  Please [download and install it](https://atom.io/) before coming to the hackathon.
 
 
--  [Edit tables and XML files using Atom](atom)
+## After the hackathon
 
-
-## Options for further work
-
-
-If you want to continue collaborating with us after the hackathon, we'll show you how to use a version-control system, and how to run scripts that can check and validate your editing:
-
--   Use a terminal to run validation scripts (TBA)
--   Use `git` from your terminal for version control (TBA)
+We'll add links here to further technical information for teams who want to continue collaborating with us after the hackathon.
