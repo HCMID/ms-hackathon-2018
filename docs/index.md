@@ -14,7 +14,7 @@ layout: page
 -   You'll learn how to read and edit Latin manuscripts.
 -   No prior experience with manuscripts or editing is required. Students should currently be taking a Latin class (any level).
 -   We'll create a digital edition of a cool [9th-century Latin  manuscript with illustrated allegorical stories about animals](thumbs) (lions, mandrakes, snakes, pelicans and more).
--   We'll provide lunch, snacks and training: you bring a laptop and enthusiasm.
+- You bring a laptop and enthusiasm: we'll provide lunch, snacks and training (and occasional examples of rhetorical figures like [zeugma](http://examples.yourdictionary.com/examples-of-zeugma.html)).
 -   You will be cited as a contributing editor in a publication of the manuscript in the Holy Cross Library's digital Institutional Repository, [CrossWorks](http://crossworks.holycross.edu/).
 
 
