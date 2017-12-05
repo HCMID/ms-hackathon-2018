@@ -4,7 +4,9 @@ layout: page
 ---
 
 
-URNs for citing our work:
+As part of the hackathon, you'll learn how to cite texts, pages of the manuscript and images using URN notation.
+
+We'll use the following URNs in our collaborative editions:
 
 
 -   Collection of images: `urn:cite2:ecod:bern318imgs.v1:`
