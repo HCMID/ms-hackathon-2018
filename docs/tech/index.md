@@ -6,10 +6,7 @@ layout: page
 
 ## Preparing for the hackathon
 
-The only software you need is:
-
--  a web browser
--  the free Atom text editor for our work.  Please [download and install it](https://atom.io/) before coming to the hackathon.
+The only software you need is [listed on this page](../preparation)
 
 
 ## After the hackathon

@@ -15,7 +15,7 @@ layout: page
 -   No prior experience with manuscripts or editing is required. Students should currently be taking a Latin class (any level).
 -   We'll create a digital edition of a cool [9th-century Latin  manuscript with illustrated allegorical stories about animals](thumbs) (lions, mandrakes, snakes, pelicans and more).
 - You bring a laptop and enthusiasm: we'll provide lunch, snacks and training (and occasional examples of rhetorical figures like [zeugma](http://examples.yourdictionary.com/examples-of-zeugma.html)).
--   You will be cited as a contributing editor in a publication of the manuscript in the Holy Cross Library's digital Institutional Repository, [CrossWorks](http://crossworks.holycross.edu/).
+-  Our work will be submitted to a new publication series, *Holy Cross Digital Diplomatic  Editions*.  If our work is accepted, your name will apear in the list of contributing editors!  (The new series will be published as part of the Holy Cross Library’s digital Institutional Repository, [CrossWorks](http://crossworks.holycross.edu/hc-dde).)
 
 
 ## Who's doing this?
@@ -24,7 +24,7 @@ The hackathon is organized by undergraduate students and alumni of the [Manuscri
 
 ## Date, time, location
 
-Saturday, February 24, 9:00-4:30, on the third floor of Hogan Center at the College of the Holy Cross.
+Saturday, February 24, 9:00-4:30, in Hogan Center at the College of the Holy Cross.
 
 
 ## More information
