@@ -55,7 +55,13 @@ def validatePaleo(paleoFile: String) = {
     if (txtUrns.distinct.size == lines.size) {
       println("All text references are unique.")
     } else {
-      println("You have duplicate references.")
+      println("\nYou have duplicate text references:")
+      val urnCounts = txtUrns.groupBy(identity).map{ case (u,lst) => (u,lst.size) }
+      val duplicateOpts = urnCounts.filter(_._2 > 1).keySet
+      //println(duplicateOpts.map(_.get).mkString("\n")
+      for (dupe <- duplicateOpts) {
+        println("\t" + dupe.get + " appears " + urnCounts(dupe) + " times.")
+      }
     }
 
 
