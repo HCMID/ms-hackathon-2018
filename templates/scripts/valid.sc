@@ -2,6 +2,8 @@ import edu.holycross.shot.cite._
 import scala.io.Source
 import java.io.PrintWriter
 import scala.xml.XML
+//import scala.collection.mutable.Vector
+import scala.collection.mutable.ArrayBuffer
 
 val paleoData = "paleography/paleography.cex"
 
@@ -123,6 +125,23 @@ def paleography = {
   validatePaleo(paleoData)
 }
 
+
+def collectElements(n: scala.xml.Node, buff: ArrayBuffer[String]): ArrayBuffer[String] = {
+  var newBuff = buff
+  n match {
+    case t: scala.xml.Text => {
+    }
+
+    case e: scala.xml.Elem => {
+      for (ch <- e.child) {
+        newBuff = collectElements(ch, buff += e.label)
+      }
+    }
+  }
+  newBuff
+}
+
+
 def collectText(n: scala.xml.Node, s: String): String = {
   var buff = StringBuilder.newBuilder
   buff.append(s)
@@ -140,12 +159,38 @@ def collectText(n: scala.xml.Node, s: String): String = {
   buff.toString
 }
 
+def validTEI(n: scala.xml.Node) = {
+  val validElements = Source.fromFile("standards/tei-elements.txt").getLines.toVector.toSet
+  val actualElements = collectElements(n, ArrayBuffer.empty[String]).toSet
 
+
+  if (actualElements.subsetOf(validElements)) {
+    println("All TEI elements are valid")
+  } else {
+    println("Your text includes the following invalid TEI elements:")
+    val bad = actualElements.diff(validElements)
+    for (b <- bad) {
+      println("\t" + b)
+    }
+  }
+
+}
 
 def validCharset(n: scala.xml.Node) = {
-  println("Collect text... " + n)
+  val validChars = Source.fromFile("standards/characters.txt").getLines.toVector.mkString("").distinct.toSet
   val t = collectText(n, "")
-  println(t)
+  val actualChars = t.distinct.toSet
+  if (actualChars.subsetOf(validChars)) {
+    println("All characters are valid")
+  } else {
+    println("Your text includes the following invalid characters:")
+    val bad = actualChars.diff(validChars)
+    for (b <- bad) {
+      println("\t" + b)
+    }
+
+  }
+
 }
 
 def validateEdition(baseUrl: String) = {
@@ -154,8 +199,9 @@ def validateEdition(baseUrl: String) = {
   for (c <- chunks) {
     val unit = (c \ "@n").text
     val u = CtsUrn(baseUrl + unit)
-    println("Validating seciton " + u + " ...")
+    println("Validating section " + u + " ...")
     validCharset(c)
+    validTEI(c)
   }
 
 
