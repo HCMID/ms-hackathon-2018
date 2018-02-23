@@ -122,3 +122,8 @@ def validatePaleo(paleoFile: String) = {
 def paleography = {
   validatePaleo(paleoData)
 }
+
+println("\n\n\n")
+println("You may run either of two validating scripts:\n")
+println("\tpaleography")
+println("\tedition")
