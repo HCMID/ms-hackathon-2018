@@ -18,11 +18,8 @@
 
   <text>
     <body>
-      <div n="caballus">
-        <p>A PARAGRAPH OF TEXT αβγ</p>
-      <camera>
-        
-      </camera>
+      <div n="SECTION ID GOES HERE">
+        <p>TEXT CONTENT OF ONE PARAGRAPH</p>
       </div>
     </body>
   </text>
