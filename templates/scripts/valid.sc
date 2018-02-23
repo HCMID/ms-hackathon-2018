@@ -1,12 +1,20 @@
 import edu.holycross.shot.cite._
+import edu.holycross.shot.ohco2._
 import scala.io.Source
 import java.io.PrintWriter
 import scala.xml.XML
-//import scala.collection.mutable.Vector
 import scala.collection.mutable.ArrayBuffer
+
 
 val paleoData = "paleography/paleography.cex"
 
+
+def textRepo: TextRepository = {
+  val catCex = "editions/ctscatalog.cex"
+  val citeConf = "editions/citationconfig.cex"
+  val baseDir = "editions"
+  TextRepositorySource.fromFiles(catCex,citeConf,baseDir)
+}
 
 def sToCiteU(urnString: String): Option[Cite2Urn]= {
   try {
@@ -34,13 +42,10 @@ def sToCtsU(urnString: String): Option[CtsUrn] = {
 
 
 def paleoImages(fName: String, thumbSize: Int = 300):  Vector[String] = {
-  // Settings for HMT ICT2 service:
-  val iipsrvBaseUrl = s"http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom"
-
+  // Setting for HMT ICT2 service:
+  val iipsrvBaseUrl = "http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom"
 
   val lines = Source.fromFile(fName).getLines.toVector.tail
-
-
   for (l <- lines) yield {
     val cols = l.split("#").toVector
     val label = try {
@@ -50,20 +55,16 @@ def paleoImages(fName: String, thumbSize: Int = 300):  Vector[String] = {
       case _ : Throwable => "Invalid text urn " + cols(1)
     }
 
-
     val formatted = try {
-
       val u = Cite2Urn(cols(0))
-
       val pathString = List(iipsrvBaseUrl, u.namespace, u.collection, u.version, u.dropExtensions.objectComponent).mkString("/")
-
       s"| **${label}** | ![${label}](${pathString}.tif&RGN=${u.objectExtension}&WID=${thumbSize}&CVT=JPEG) | "
+
     } catch {
       case _ : Throwable => s"| ${label} | Invalid image URN: ${cols(0)} |"
     }
     formatted
   }
-
 }
 
 def validatePaleo(paleoFile: String) = {
@@ -124,7 +125,6 @@ def validatePaleo(paleoFile: String) = {
 def paleography = {
   validatePaleo(paleoData)
 }
-
 
 def collectElements(n: scala.xml.Node, buff: ArrayBuffer[String]): ArrayBuffer[String] = {
   var newBuff = buff
@@ -188,10 +188,48 @@ def validCharset(n: scala.xml.Node) = {
     for (b <- bad) {
       println("\t" + b)
     }
-
   }
-
 }
+
+
+def dseTriples = {
+  val lines = Source.fromFile("relations/dsetriples.cex").getLines.toVector
+  for (l <- lines.tail) yield {
+    val cols = l.split("#").toVector
+
+
+    val textOpt = try {
+      Some(CtsUrn(cols(0)))
+    } catch {
+      case _ : Throwable => None
+    }
+    if (cols.size == 3) {
+      (textOpt,Vector(cols(1),cols(2)))
+    } else {
+      (textOpt,Vector(cols(1)))
+    }
+/*
+    val formatted = try {
+      val u = Cite2Urn(cols(0))
+      val pathString = List(iipsrvBaseUrl, u.namespace, u.collection, u.version, u.dropExtensions.objectComponent).mkString("/")
+      s"| **${label}** | ![${label}](${pathString}.tif&RGN=${u.objectExtension}&WID=${thumbSize}&CVT=JPEG) | "
+
+    } catch {
+      case _ : Throwable => s"| ${label} | Invalid image URN: ${cols(0)} |"
+    }
+    formatted*/
+  }
+}
+
+def validateDSE(urn: CtsUrn) = {
+  println("Checking DSE relations for ${urn}")
+  val allTriples = dseTriples
+  val entries = allTriples.filter(_._2.size == 2)
+  // now find entry/ies matching urn...
+  val relevant = entries.filter(_._1.get ~~ urn)
+}
+
+
 
 def validateEdition(baseUrl: String) = {
   val xml = XML.loadFile("editions/physiologus.xml")
@@ -202,7 +240,9 @@ def validateEdition(baseUrl: String) = {
     println("Validating section " + u + " ...")
     validCharset(c)
     validTEI(c)
+    validateDSE(u)
   }
+
 
 
 }
