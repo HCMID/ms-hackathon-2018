@@ -165,9 +165,9 @@ def validTEI(n: scala.xml.Node) = {
 
 
   if (actualElements.subsetOf(validElements)) {
-    println("All TEI elements are valid")
+    println("\tAll TEI elements are valid")
   } else {
-    println("Your text includes the following invalid TEI elements:")
+    println("\n  Your text includes the following invalid TEI elements:")
     val bad = actualElements.diff(validElements)
     for (b <- bad) {
       println("\t" + b)
@@ -181,9 +181,9 @@ def validCharset(n: scala.xml.Node) = {
   val t = collectText(n, "")
   val actualChars = t.distinct.toSet
   if (actualChars.subsetOf(validChars)) {
-    println("All characters are valid")
+    println("\tAll characters are valid")
   } else {
-    println("Your text includes the following invalid characters:")
+    println("\n  Your text includes the following invalid characters:")
     val bad = actualChars.diff(validChars)
     for (b <- bad) {
       println("\t" + b)
@@ -221,12 +221,34 @@ def dseTriples = {
   }
 }
 
-def validateDSE(urn: CtsUrn) = {
-  println("Checking DSE relations for ${urn}")
+def validateDSE(urn: CtsUrn, thumbSize: Int = 300) = {
+  val iipsrvBaseUrl = "http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom"
+  val ictBaseUrl = "http://www.homermultitext.org/ict2/?urn="
+
+  println(s"\n  Checking DSE relations for ${urn}")
   val allTriples = dseTriples
   val entries = allTriples.filter(_._2.size == 2)
   // now find entry/ies matching urn...
   val relevant = entries.filter(_._1.get ~~ urn)
+  println(s"\tFound ${relevant.size} entry/ies " + relevant)
+  val lines = for (entry <- relevant) yield {
+    val img = Cite2Urn(entry._2(1))
+
+    val pathString = List(iipsrvBaseUrl, img.namespace, img.collection, img.version, img.dropExtensions.objectComponent).mkString("/")
+    s"| **${urn.passageComponent}** | [![${urn.passageComponent}](${pathString}.tif&RGN=${img.objectExtension}&WID=${thumbSize}&CVT=JPEG)](${ictBaseUrl}${img}) | "
+///http://www.homermultitext.org/ict2/?urn=urn:cite2:ecod:bern318imgs.v1:bern318_022v@0.3021,0.09006,0.5938,0.4615
+  }
+  println(lines)
+
+
+  val hdrLabels =  "| Passage | Image |\n"
+  val hdrSeparator =  List.fill(2)("|:-------------").mkString + "|\n"
+  val mdTable = hdrLabels + hdrSeparator + lines.filter(_.nonEmpty).mkString("\n") + "\n"
+
+
+  val pageHeader = "# DSE inventory\n\n"
+
+  new java.io.PrintWriter("reports/dse.md"){write(pageHeader + mdTable);close;}
 }
 
 
@@ -234,10 +256,11 @@ def validateDSE(urn: CtsUrn) = {
 def validateEdition(baseUrl: String) = {
   val xml = XML.loadFile("editions/physiologus.xml")
   val chunks = xml \ "text" \ "body" \ "div"
+  println("\n\nValidating editorial work in " + baseUrl)
   for (c <- chunks) {
     val unit = (c \ "@n").text
     val u = CtsUrn(baseUrl + unit)
-    println("Validating section " + u + " ...")
+    println("\nValidating section " + u.passageComponent + " ...")
     validCharset(c)
     validTEI(c)
     validateDSE(u)
