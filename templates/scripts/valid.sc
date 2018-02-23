@@ -40,7 +40,6 @@ def sToCtsU(urnString: String): Option[CtsUrn] = {
   }
 }
 
-
 def paleoImages(fName: String, thumbSize: Int = 300):  Vector[String] = {
   // Setting for HMT ICT2 service:
   val iipsrvBaseUrl = "http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom"
@@ -110,16 +109,14 @@ def validatePaleo(paleoFile: String) = {
   }
   val tableRows = paleoImages(paleoFile)
 
-
-
   val hdrLabels =  "| Reading of glyph | Image |\n"
   val hdrSeparator =  List.fill(2)("|:-------------").mkString + "|\n"
   val mdTable = hdrLabels + hdrSeparator + tableRows.filter(_.nonEmpty).mkString("\n") + "\n"
 
-
   val pageHeader = "# Paleographic inventory\n\n"
-
   new java.io.PrintWriter("reports/paleography.md"){write(pageHeader + mdTable);close;}
+  println("\n\nVisualization of paleographic observations written to reports/paleography.md")
+  println("Please verify results.\n")
 }
 
 def paleography = {
@@ -196,8 +193,6 @@ def dseTriples = {
   val lines = Source.fromFile("relations/dsetriples.cex").getLines.toVector
   for (l <- lines.tail) yield {
     val cols = l.split("#").toVector
-
-
     val textOpt = try {
       Some(CtsUrn(cols(0)))
     } catch {
@@ -208,16 +203,6 @@ def dseTriples = {
     } else {
       (textOpt,Vector(cols(1)))
     }
-/*
-    val formatted = try {
-      val u = Cite2Urn(cols(0))
-      val pathString = List(iipsrvBaseUrl, u.namespace, u.collection, u.version, u.dropExtensions.objectComponent).mkString("/")
-      s"| **${label}** | ![${label}](${pathString}.tif&RGN=${u.objectExtension}&WID=${thumbSize}&CVT=JPEG) | "
-
-    } catch {
-      case _ : Throwable => s"| ${label} | Invalid image URN: ${cols(0)} |"
-    }
-    formatted*/
   }
 }
 
@@ -230,16 +215,13 @@ def validateDSE(urn: CtsUrn, thumbSize: Int = 300) = {
   val entries = allTriples.filter(_._2.size == 2)
   // now find entry/ies matching urn...
   val relevant = entries.filter(_._1.get ~~ urn)
-  println(s"\tFound ${relevant.size} entry/ies " + relevant)
+  println(s"\tFound ${relevant.size} entry/ies ")
   val lines = for (entry <- relevant) yield {
     val img = Cite2Urn(entry._2(1))
 
     val pathString = List(iipsrvBaseUrl, img.namespace, img.collection, img.version, img.dropExtensions.objectComponent).mkString("/")
     s"| **${urn.passageComponent}** | [![${urn.passageComponent}](${pathString}.tif&RGN=${img.objectExtension}&WID=${thumbSize}&CVT=JPEG)](${ictBaseUrl}${img}) | "
-///http://www.homermultitext.org/ict2/?urn=urn:cite2:ecod:bern318imgs.v1:bern318_022v@0.3021,0.09006,0.5938,0.4615
   }
-  println(lines)
-
 
   val hdrLabels =  "| Passage | Image |\n"
   val hdrSeparator =  List.fill(2)("|:-------------").mkString + "|\n"
@@ -249,6 +231,8 @@ def validateDSE(urn: CtsUrn, thumbSize: Int = 300) = {
   val pageHeader = "# DSE inventory\n\n"
 
   new java.io.PrintWriter("reports/dse.md"){write(pageHeader + mdTable);close;}
+  println("\n\nVisualization of DSE observations written to reports/dse.md")
+  println("Please verify results.\n")
 }
 
 

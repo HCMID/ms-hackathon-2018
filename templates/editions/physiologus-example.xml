@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The Bern Physiologus</title>
+        <editor>YOUR NAME GOES HERE</editor>
+        <editor>INCLUDE A LINE FOR EVERY MEMBER OF YOUR TEAM</editor>
+      </titleStmt>
+      <publicationStmt>
+        <p>Original digital edition created at Holy Cross Manuscripts Hackathon</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Edited directly from digital images from the e-codices project.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <div n="caballus">
+        <p>Caballus ante cabo dictus propter quod gradiens ungula in praessa terra
+        concavet quod reliqua animalia non habent.</p>
+      </div>
+    </body>
+  </text>
+
+</TEI>
