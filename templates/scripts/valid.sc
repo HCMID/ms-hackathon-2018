@@ -1,9 +1,10 @@
 import edu.holycross.shot.cite._
 import scala.io.Source
+import java.io.PrintWriter
+
 
 val paleoData = "paleography/paleography.cex"
 
-case class CandidateCite2Urn (s: String, u: Option[Cite2Urn])
 
 def sToCiteU(urnString: String): Option[Cite2Urn]= {
   try {
@@ -29,6 +30,40 @@ def sToCtsU(urnString: String): Option[CtsUrn] = {
   }
 }
 
+
+def paleoImages(fName: String, thumbSize: Int = 300):  Vector[String] = {
+  // Settings for HMT ICT2 service:
+  val iipsrvBaseUrl = s"http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom"
+
+
+  val lines = Source.fromFile(fName).getLines.toVector.tail
+
+
+  for (l <- lines) yield {
+    val cols = l.split("#").toVector
+    val label = try {
+      val  txt = CtsUrn(cols(1))
+      txt.passageNodeSubref
+    } catch {
+      case _ : Throwable => "Invalid text urn " + cols(1)
+    }
+
+
+    val formatted = try {
+
+      val u = Cite2Urn(cols(0))
+
+      val pathString = List(iipsrvBaseUrl, u.namespace, u.collection, u.version, u.dropExtensions.objectComponent).mkString("/")
+
+      s"| **${label}** | ![${label}](${pathString}.tif&RGN=${u.objectExtension}&WID=${thumbSize}&CVT=JPEG) | "
+    } catch {
+      case _ : Throwable => s"| ${label} | Invalid image URN: ${cols(0)} |"
+    }
+    formatted
+  }
+
+}
+
 def validatePaleo(paleoFile: String) = {
   val lines = Source.fromFile(paleoFile).getLines.toVector.tail
   val cols = for (l <- lines) yield {
@@ -48,7 +83,7 @@ def validatePaleo(paleoFile: String) = {
     println("Please correct errors .")
   }
 
-
+  // check that URNs are syntactically valid and unique
   val txtUrns = txt.map(sToCtsU(_))
   if (txtUrns.flatten.size == lines.size) {
     println("All text references syntactically valid.")
@@ -70,9 +105,18 @@ def validatePaleo(paleoFile: String) = {
     println("Found " + txtUrns.flatten.size + " valid text URNs.")
     println("Please correct errors .")
   }
+  val tableRows = paleoImages(paleoFile)
 
-  // check that URNs are syntactically valid and unique
 
+
+  val hdrLabels =  "| Reading of glyph | Image |\n"
+  val hdrSeparator =  List.fill(2)("|:-------------").mkString + "|\n"
+  val mdTable = hdrLabels + hdrSeparator + tableRows.filter(_.nonEmpty).mkString("\n") + "\n"
+
+
+  val pageHeader = "# Paleographic inventory\n\n"
+
+  new java.io.PrintWriter("reports/paleography.md"){write(pageHeader + mdTable);close;}
 }
 
 def paleography = {
