@@ -1,7 +1,7 @@
 import edu.holycross.shot.cite._
 import scala.io.Source
 import java.io.PrintWriter
-
+import scala.xml.XML
 
 val paleoData = "paleography/paleography.cex"
 
@@ -123,6 +123,47 @@ def paleography = {
   validatePaleo(paleoData)
 }
 
+def collectText(n: scala.xml.Node, s: String): String = {
+  var buff = StringBuilder.newBuilder
+  buff.append(s)
+  n match {
+    case t: scala.xml.Text => {
+      buff.append(t.text)
+    }
+
+    case e: scala.xml.Elem => {
+      for (ch <- e.child) {
+        buff = new StringBuilder(collectText(ch, buff.toString))
+      }
+    }
+  }
+  buff.toString
+}
+
+
+
+def validCharset(n: scala.xml.Node) = {
+  println("Collect text... " + n)
+  val t = collectText(n, "")
+  println(t)
+}
+
+def validateEdition(baseUrl: String) = {
+  val xml = XML.loadFile("editions/physiologus.xml")
+  val chunks = xml \ "text" \ "body" \ "div"
+  for (c <- chunks) {
+    val unit = (c \ "@n").text
+    val u = CtsUrn(baseUrl + unit)
+    println("Validating seciton " + u + " ...")
+    validCharset(c)
+  }
+
+
+}
+
+def edition = {
+  validateEdition("urn:cts:mid:bestiaries.bern318.hc:")
+}
 println("\n\n\n")
 println("You may run either of two validating scripts:\n")
 println("\tpaleography")

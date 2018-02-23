@@ -1,0 +1,12 @@
+div
+p
+num
+persName
+placeName
+unclear
+gap
+choice
+abbr
+expan
+sic
+corr
