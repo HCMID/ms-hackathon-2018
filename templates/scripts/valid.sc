@@ -173,8 +173,22 @@ def validTEI(n: scala.xml.Node) = {
 
 }
 
+
+/*
+def codeptList (s: String, idx : Int = 0, codepoints: List[Int] = Nil): List[Int] = {
+  if (idx >= s.length) {
+    codepoints.reverse
+  } else {
+    val cp = s.codePointAt(idx)
+    codeptList(s, idx + java.lang.Character.charCount(cp), cp :: codepoints)
+  }
+}*/
+
 def validCharset(n: scala.xml.Node) = {
-  val validChars = Source.fromFile("standards/characters.txt").getLines.toVector.mkString("").distinct.toSet
+  val whitespace = """
+""" + " "
+  val validChars = Source.fromFile("standards/characters.txt").getLines.toVector.mkString("").distinct.toSet ++ whitespace.distinct.toSet
+
   val t = collectText(n, "")
   val actualChars = t.distinct.toSet
   if (actualChars.subsetOf(validChars)) {
@@ -183,7 +197,7 @@ def validCharset(n: scala.xml.Node) = {
     println("\n  Your text includes the following invalid characters:")
     val bad = actualChars.diff(validChars)
     for (b <- bad) {
-      println("\t" + b)
+      println("\t" + b + s" (${Character.codePointAt(Array(b),0,1)})")
     }
   }
 }
