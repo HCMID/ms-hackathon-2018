@@ -8,6 +8,16 @@ layout: page
 ![mandrake](http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/bern318imgs/v1/bern318_019r.tif&RGN=0.1632,0.4317,0.4943,0.08636&wID=600&CVT=JPEG)
 
 
+
+## Welcome!
+
+1.  Register and find your [team leaders](teamleaders).
+2.  Verify that one (or more) of your team's computers  is fully configured.
+2.  Download a `zip` file with [data and templates for editing](https://github.com/HCMID/ms-hackathon-2018/blob/master/templates.zip)
+
+
+See a [schedule for the day](schedule).
+
 ## What is our manuscripts hackathon?
 
 -   A free, one-day workshop for secondary-school teachers and students.
