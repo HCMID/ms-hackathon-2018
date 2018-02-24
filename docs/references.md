@@ -20,3 +20,10 @@ Commands you'll need:
 
 -  `cd`  ("**C**hange **D**irectory"): change your shell to a new folder
 -   `pwd`   ("**P**rint **W**orking **D**irectorty"): show what folder your terminal is currently in
+
+
+## Running test scripts
+
+Make sure your terminal is in the right folder (use `pwd`)
+
+Start the testing environment:  `sbt console`
