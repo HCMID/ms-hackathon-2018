@@ -8,6 +8,8 @@ layout: page
 
 The only software you need is [listed on this page](../preparation)
 
+Instructions for configuring Atom are available from HC MID [tech support pages](http://hcmid.github.io/tech/software/).
+
 
 ## After the hackathon
 

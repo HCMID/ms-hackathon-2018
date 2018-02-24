@@ -4,6 +4,9 @@ layout: page
 ---
 
 
+http://hcmid.github.io/tech/software/
+
+
 TBA:
 
 -   configuring table editing
