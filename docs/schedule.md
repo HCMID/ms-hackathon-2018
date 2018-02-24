@@ -21,7 +21,8 @@ layout: page
 
 12:15-1:15:  lunch.
 
-1:15-1:45:    **Share work so far**.  Questions, problems, and success stories.  Things we should be on the look out for in the afternoon.
+1:15-1:45:    **Share work so far:  Suite B/C
+**.  Questions, problems, and success stories.  Things we should be on the look out for in the afternoon.
 
 1:45-2:45:   **break out session**:  each team edits and validates its text.  Your project leader can help you run scripts that analyze your editing, and check your work for inconsistencies and errors.
 
