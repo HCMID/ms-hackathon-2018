@@ -12,7 +12,7 @@ layout: page
 ## Welcome!
 
 1.  Register and find your [team leaders](teamleaders).
-2.  Verify that one (or more) of your team's computers  is fully configured.
+2.  Verify that one (or more) of your team's computers  is [fully configured](preparation).
 2.  Download a `zip` file with [data and templates for editing](https://github.com/HCMID/ms-hackathon-2018/blob/master/templates.zip)
 
 
