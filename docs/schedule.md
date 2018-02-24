@@ -7,13 +7,15 @@ layout: page
 
 
 
-9:00-9:45:  **Register, meet your project leader, pre-flight checkup** (registration desk at in Hogan Center, with directions to assigned work location for each team).  Each team should have at least one [fully configured computer](../preparation), and at least one additional computer with a web browser.  Coffee will be available for those who need it.
+9:00-9:45:  **Register, meet your project leader, pre-flight checkup** (Hogan Room A).  Each team should have at least one [fully configured computer](../preparation), and at least one additional computer with a web browser.  Coffee will be available for those who need it.
 
-9:45-10:15:  **Introduction to the hackathon**.  Review the day's schedule; how to cite digital images, and create a table of paleogaphic observations.
+9:45-10:15:  **Introduction to the hackathon:  Suite B/C
+**.  Review the day's schedule; how to cite digital images, and create a table of paleogaphic observations.
 
 10:15-10:45:  **break out session**:  each team records paleographic observations.
 
-10:45-11:15:  **Introduction to editing**. How to index text to images, and a brief introduction to the eXtensible Markup Language, XML.
+10:45-11:15:  **Introduction to editing: Suite B/C
+**. How to index text to images, and a brief introduction to the eXtensible Markup Language, XML.
 
 11:15-12:15:  **break out session**:  each team begins editing its assigned text.
 
