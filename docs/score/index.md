@@ -15,8 +15,8 @@ We'll keep live updates on this page throughout the hackathon!
 | First nature of the lion         | `leo1`                | ![no](./imgs/yes.png) | ![no](./imgs/no.png)      | ![no](./imgs/no.png)  | ![no](./imgs/no.png)  | ![no](./imgs/no.png)  |
 | Second nature of the lion        | `leo2`                | ![no](./imgs/yes.png) | ![no](./imgs/no.png)      | ![no](./imgs/no.png)  | ![no](./imgs/no.png)  | ![no](./imgs/no.png)  |
 | Third nature of the lion         | `leo3`                | ![no](./imgs/yes.png) | ![no](./imgs/no.png)      | ![no](./imgs/no.png)  | ![no](./imgs/no.png)  | ![no](./imgs/no.png)  |
-|                                  | `aesaura`             | ![no](./imgs/yes.png) | ![no](./imgs/no.png)      | ![no](./imgs/no.png)  | ![no](./imgs/no.png)  | ![no](./imgs/no.png)  |
-| The pelican                      | `calatrius`           | ![no](./imgs/yes.png) | ![no](./imgs/no.png)      | ![no](./imgs/no.png)  | ![no](./imgs/no.png)  | ![no](./imgs/no.png)  |
+|                                  | `aesaura`             | ![no](./imgs/yes.png) | ![no](./imgs/yes.png)      | ![no](./imgs/yes.png)  | ![no](./imgs/yes.png)  | ![no](./imgs/yes.png)  |
+| The pelican                      | `calatrius`           | ![no](./imgs/yes.png) | ![no](./imgs/yes.png)      | ![no](./imgs/yes.png)  | ![no](./imgs/yes.png)  | ![no](./imgs/yes.png)  |
 |                                  | `nocticoracus`        | ![no](./imgs/yes.png) | ![no](./imgs/no.png)      | ![no](./imgs/no.png)  | ![no](./imgs/no.png)  | ![no](./imgs/no.png)  |
 |                                  | `nocticoraci`         | ![no](./imgs/yes.png) | ![no](./imgs/no.png)      | ![no](./imgs/no.png)  | ![no](./imgs/no.png)  | ![no](./imgs/no.png)  |
 | The eagle                        | `aquila`              | ![no](./imgs/yes.png) | ![no](./imgs/no.png)      | ![no](./imgs/no.png)  | ![no](./imgs/no.png)  | ![no](./imgs/no.png)  |
@@ -30,7 +30,7 @@ We'll keep live updates on this page throughout the hackathon!
 |                                  | `formica3`            | ![no](./imgs/yes.png) | ![no](./imgs/no.png)      | ![no](./imgs/no.png)  | ![no](./imgs/no.png)  | ![no](./imgs/no.png)  |
 |                                  | `serena_honocentaur`  | ![no](./imgs/yes.png) | ![no](./imgs/no.png)      | ![no](./imgs/no.png)  | ![no](./imgs/no.png)  | ![no](./imgs/no.png)  |
 | The hedgehog                     | `ericius`             | ![no](./imgs/yes.png) | ![no](./imgs/no.png)      | ![no](./imgs/no.png)  | ![no](./imgs/no.png)  | ![no](./imgs/no.png)  |
-| The wolf                         | `vulpes`              | ![no](./imgs/yes.png) | ![no](./imgs/no.png)      | ![no](./imgs/no.png)  | ![no](./imgs/no.png)  | ![no](./imgs/no.png)  |
+| The wolf                         | `vulpes`              | ![no](./imgs/yes.png) | ![no](./imgs/yes.png)      | ![no](./imgs/yes.png)  | ![no](./imgs/yes.png)  | ![no](./imgs/yes.png)  |
 | The panther                      | `panther`             | ![no](./imgs/yes.png) | ![no](./imgs/no.png)      | ![no](./imgs/no.png)  | ![no](./imgs/no.png)  | ![no](./imgs/no.png)  |
 |                                  | `cetus`               | ![no](./imgs/yes.png) | ![no](./imgs/yes.png)      | ![no](./imgs/yes.png)  | ![no](./imgs/yes.png)  | ![no](./imgs/yes.png)  |
 |                                  | `piscis2`             | ![no](./imgs/yes.png) | ![no](./imgs/yes.png)     | ![no](./imgs/no.png)  | ![no](./imgs/no.png)  | ![no](./imgs/no.png)  |
