@@ -27,3 +27,40 @@ Commands you'll need:
 Make sure your terminal is in the right folder (use `pwd`)
 
 Start the testing environment:  `sbt console`
+
+
+## XML element names
+
+
+Our editions allow the following TEI elements:
+
+
+**Basic organizational structure**
+
+`div`:  organize your sections in *div*isions.  Use the `@n` attribute to name it.
+
+`p`:  within your `div`, organize your text in paragraphs
+
+**Identifying what's legible**
+
+`unclear`: if you're uncertain what the text says
+
+`gap`:  if something is missing
+
+
+**Identifying content that needs to be treated specially**
+
+
+`num`:  numbers written numerically
+
+`persName`:  proper names of persons
+
+`placeName`:  proper names of places
+
+If you have an abbreviation, you should identify it and how it should be expanded:
+
+`abbr`:  abbreviation
+
+`expan`:  full version (supplied by you)
+
+Group these two together by wrapping them in a `choice` element.
